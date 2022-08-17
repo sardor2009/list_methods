@@ -7,5 +7,11 @@
     Returns:
         list: return answer
 */
+List func(List fruits1, List fruits2){
+  fruits1.add(fruits2);
+  return fruits1;
+}
 
-void main() {}
+void main() {
+  print(func([2, 4, 5], [6, 7, 8]));
+}
